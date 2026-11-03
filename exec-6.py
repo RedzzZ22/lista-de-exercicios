@@ -3,7 +3,7 @@ while True:
     status = input("Qual o status do seu credencial: ").strip().lower()
 
     if status == "ativa":
-        print("Bem vindo")
+        print("Acesso permitido, Bem vindo!")
         break
     elif status == "bloqueada":
         print("Acesso negado")
